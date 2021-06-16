@@ -1,0 +1,144 @@
+*{margin: 0;
+padding: 0;}
+
+nav{display:flex;
+width: 100vw;
+height: 100px;
+background-color: black;
+align-items: center;
+}
+#navbar{position: sticky;
+    top: 0px;}
+
+nav img{height: 80px;}
+
+nav ul{display: flex;
+justify-content: center;
+align-items: center;}
+
+nav ul li a{margin: 0px 30px;
+    padding: 0 5px;
+font-size: 1.7rem;
+text-decoration: none;
+color: white;
+/* background-color: rgb(255, 145, 0); */
+border: white solid 2px;
+border-radius: 20px;}
+
+nav ul li a:hover{background-color: white;
+color: black;
+font-weight: bolder;}
+#Home{display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: column;
+height: 500px;
+background-image: url(../bg.jpg);
+background-repeat: no-repeat;
+background-size:cover;}
+
+.heading{font-size:3rem ;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paragraph{text-align: center;
+font-style: italic;
+padding: 0px 426px;}
+
+#Home .btn{background-color: rgb(170, 47, 47);
+color: black;
+border: black solid 3px;
+border-radius: 30px;
+font-size: 2rem;
+margin: 7px 0px;
+padding: 0px 4px;}
+
+#Home .btn:hover{background-color: darkred;
+color: white;
+font-size: 2.3rem;
+font-weight: bolder;}
+
+.box{height: 500px;
+width: 400px;
+margin: 10px 40px;
+padding: 4px 15px;
+background-color: cornsilk;
+border: black 2px solid;
+border-radius: 10px;}
+
+.box img{height: 200px;
+    margin: 35px;}
+
+.heading1{text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+#containers{display: flex;
+align-items:center;
+justify-content: center;}
+
+.paragraph1{text-align: center;
+font-style: italic;}
+
+.clients{display: flex;}
+.boxes{height: 250px;
+width: 400px;
+margin: 34px 25px;
+padding: 4px 15px;
+background-color: rgb(0, 0, 0);
+border-radius: 200px;
+}
+
+.boxes img{height: 200px;
+    width: 200px; ;
+    margin: 30px;}
+
+h3{text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 2.5rem;}
+
+#contactus{
+    position: relative;
+}
+#contactus::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact.jpg') no-repeat center center/cover;
+
+}
+
+
+#contactbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contactbox textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contactbox form{
+    width: 40%;
+}
+
+#contactbox label{
+   font-size: 1.3rem;
+
+}
+
+footer{background-color: black;
+color: white;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 1rem;
+text-align: center;
+font-style: oblique;}
